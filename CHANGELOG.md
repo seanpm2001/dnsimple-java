@@ -1,5 +1,11 @@
 # Changelog
 
+## main
+
+BREAKING CHANGES
+
+- `CertificateBundle.privateKey` has been moved to its own class called `CertificatePrivateKey`, which is now returned by `Certificates::getCertificatePrivateKey`. (dnsimple/dnsimple-java#150)
+
 ## Release 0.10.0
 
 - BREAKING: `purchaseLetsencryptCertificateRenewal` now takes a `CertificateRenewalPurchaseOptions` object to support the `signatureAlgorithm` field (dnsimple/dnsimple-java#146)
